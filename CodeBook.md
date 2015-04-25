@@ -41,7 +41,8 @@ class:factor
 	tBodyAccJerk-std()-X
 	tBodyGyro-std()-X
 	tBodyGyroJerk-std()-X
-	tBodyAccMag-std()	tBodyGyroMag-std()
+	tBodyAccMag-std()
+	tBodyGyroMag-std()
 	fBodyAcc-std()-Y
 	fBodyAccJerk-std()-Y
 	fBodyGyro-std()-Y
