@@ -30,7 +30,7 @@ class:factor
 	tBodyAccJerk-mean()-X
 	tBodyGyro-mean()-X
 	tBodyGyroJerk-mean()-X
-	tBodyAccMag-mean()	
+	tBodyAccMag-mean()
 	tBodyGyroMag-mean()
 	fBodyAcc-mean()-Y
 	fBodyAccJerk-mean()-Y
