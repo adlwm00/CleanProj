@@ -1,6 +1,6 @@
 Data Cleaning Course Project ReadMe
 Files in this repo:
-ReadMe.md
+README.md
 CodeBook.md - variable listing (similar to the one from Quiz 1, as instructed by TAs)
 run_analysis.R
 
