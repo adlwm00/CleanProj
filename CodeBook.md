@@ -1,5 +1,12 @@
 CODE BOOK - AVGREADINGS
 
+NOTE: On discussion forums, a TA recommended using the codebook from Quiz 1
+as inspiration. This codebook mainly follows what was presented there. 
+More information beyond the variable listing is found in the README.md.
+It wasn't all that clear to me what was supposed to go in the CodeBook 
+versus the README. However, I think all of the requested information is
+found in one place or another. Thanks!
+
 subjectID
 
 Number of personal subject.
