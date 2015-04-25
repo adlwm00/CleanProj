@@ -12,12 +12,12 @@ Type of activity recorded
 
 class: factor
 
-WALKING
-WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTING
-STANDING
-LAYING
+	WALKING
+	WALKING_UPSTAIRS
+	WALKING_DOWNSTAIRS
+	SITTING
+	STANDING
+	LAYING
 
 measureType
 
@@ -25,42 +25,72 @@ Type of measurement recorded.
 
 class:factor
 
-tBodyAcc-mean()-XtGravityAcc-mean()-X
-tBodyAccJerk-mean()-XtBodyGyro-mean()-X
-tBodyGyroJerk-mean()-X
-tBodyAccMag-mean()t
-BodyGyroMag-mean()fBodyAcc-mean()-YfBodyAccJerk-mean()-YfBodyGyro-mean()-YfBodyBodyAccJerkMag -mean()tBodyAcc-std()-XtGravityAcc-std()-X
-tBodyAccJerk-std()-X
-tBodyGyro-std()-X
-tBodyGyroJerk-std()-X
-tBodyAccMag-std()t
-BodyGyroMag-std()
-fBodyAcc-std()-YfBodyAccJerk-std()-YfBodyGyro-std()-YfBodyBodyAccJerkMag-std()
-tBodyAcc-mean()-Y
-tGravityAcc-mean()-Y
-tBodyAccJerk-mean()-Y
-tBodyGyro-mean()-Y
-tBodyGyroJerk-mean()-Y
-tGravityAccMag-mean()
-tBodyGyroJerkMag-mean()
-fBodyAcc-mean()-ZfBodyAccJerk-mean()-ZfBodyGyro-mean()-ZfBodyBodyGyroMag-mean()tBodyAcc-std()-YtGravityAcc-std()-Y
-tBodyAccJerk-std()-Y
-tBodyGyro-std()-Y
-tBodyGyroJerk-std()-YtGravityAccMag-std()
-tBodyGyroJerkMag-std()fBodyAcc-std()-Z
-fBodyAccJerk-std()-ZfBodyGyro-std()-Z
-fBodyBodyGyroMag-std()tBodyAcc-mean()-ZtGravityAcc-mean()-ZtBodyAccJerk-mean()-Z
-tBodyGyro-mean()-Z
-tBodyGyroJerk-mean()-Z
-tBodyAccJerkMag-mean()fBodyAcc-mean()-XfBodyAccJerk-mean()-X
-fBodyGyro-mean()-XfBodyAccMag-mean()
-fBodyBodyGyroJerkMag-mean()
-tBodyAcc-std()-ZtGravityAcc-std()-ZtBodyAccJerk-std()-Z
-tBodyGyro-std()-Z
-tBodyGyroJerk-std()-Z
-tBodyAccJerkMag-std()fBodyAcc-std()-XfBodyAccJerk-std()-X
-fBodyGyro-std()-XfBodyAccMag-std()f
-BodyBodyGyroJerkMag-std()
+	tBodyAcc-mean()-X
+	tGravityAcc-mean()-X
+	tBodyAccJerk-mean()-X
+	tBodyGyro-mean()-X
+	tBodyGyroJerk-mean()-X
+	tBodyAccMag-mean()	
+	tBodyGyroMag-mean()
+	fBodyAcc-mean()-Y
+	fBodyAccJerk-mean()-Y
+	fBodyGyro-mean()-Y
+	fBodyBodyAccJerkMag-mean()
+	tBodyAcc-std()-X
+	tGravityAcc-std()-X
+	tBodyAccJerk-std()-X
+	tBodyGyro-std()-X
+	tBodyGyroJerk-std()-X
+	tBodyAccMag-std()	tBodyGyroMag-std()
+	fBodyAcc-std()-Y
+	fBodyAccJerk-std()-Y
+	fBodyGyro-std()-Y
+	fBodyBodyAccJerkMag-std()
+	tBodyAcc-mean()-Y
+	tGravityAcc-mean()-Y
+	tBodyAccJerk-mean()-Y
+	tBodyGyro-mean()-Y
+	tBodyGyroJerk-mean()-Y
+	tGravityAccMag-mean()
+	tBodyGyroJerkMag-mean()
+	fBodyAcc-mean()-Z
+	fBodyAccJerk-mean()-Z
+	fBodyGyro-mean()-Z
+	fBodyBodyGyroMag-mean()
+	tBodyAcc-std()-Y
+	tGravityAcc-std()-Y
+	tBodyAccJerk-std()-Y
+	tBodyGyro-std()-Y
+	tBodyGyroJerk-std()-Y
+	tGravityAccMag-std()
+	tBodyGyroJerkMag-std()
+	fBodyAcc-std()-Z
+	fBodyAccJerk-std()-Z
+	fBodyGyro-std()-Z
+	fBodyBodyGyroMag-std()
+	tBodyAcc-mean()-Z
+	tGravityAcc-mean()-Z
+	tBodyAccJerk-mean()-Z
+	tBodyGyro-mean()-Z
+	tBodyGyroJerk-mean()-Z
+	tBodyAccJerkMag-mean()
+	fBodyAcc-mean()-X
+	fBodyAccJerk-mean()-X
+	fBodyGyro-mean()-X
+	fBodyAccMag-mean()
+	fBodyBodyGyroJerkMag-mean()
+	tBodyAcc-std()-Z
+	tGravityAcc-std()-Z
+	tBodyAccJerk-std()-Z
+	tBodyGyro-std()-Z
+	tBodyGyroJerk-std()-Z
+	tBodyAccJerkMag-std()
+	fBodyAcc-std()-X
+	fBodyAccJerk-std()-X
+	fBodyGyro-std()-X
+	fBodyAccMag-std()
+	fBodyBodyGyroJerkMag-std()
+	
 avgReading
 
 Average reading across measurements by subject and activity.
